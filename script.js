@@ -16,5 +16,4 @@ for (let i = 0; i < prices.length; i++) {
   total = total + prices[i];
 }
 
-const totalText = document.querySelector("#total");
-totalText.textContent = "$" + total;
+document.querySelector("#total").textContent = "Total: $" + total;
